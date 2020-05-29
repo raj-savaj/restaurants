@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.demos.param.ashtrestoant.Utility.ShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/listview_row_border"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tbname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Table-1"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    app:fontFamily="@font/amaranthr" />
+                <TextView
+                    android:id="@+id/txttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:15 AM\n15-12-2018"
+                    android:layout_marginBottom="14dp"
+                    android:textColor="#5e5959"
+                    android:textSize="18dp"
+                    android:textAlignment="center"
+                    android:paddingLeft="15dp"
+                    app:fontFamily="@font/amaranthr"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:id="@+id/txttot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/calibrib"
+                    android:layout_alignParentRight="true"
+                    android:textSize="27dp"
+                    android:textColor="#000"
+                    android:drawableLeft="@drawable/ic_rupee"
+                    android:text="1050"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </com.demos.param.ashtrestoant.Utility.ShadowLayout>
+</LinearLayout>

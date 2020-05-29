@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/a"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#DB4915"
+        android:scaleType="fitCenter" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="21dp"
+            android:text="Delete Order History ?"
+            android:fontFamily="@font/amaranthr"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_sdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_text"
+        android:textColor="#ED000000"
+        android:fontFamily="@font/calibrib"
+        android:textSize="16dp"
+        android:text="Select Start Date"
+       />
+    <TextView
+        android:id="@+id/text_edate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border_text"
+        android:orientation="horizontal"
+        android:fontFamily="@font/calibrib"
+        android:textColor="#ED000000"
+        android:text="Select End Date"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="right">
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#DB4915"
+            android:text="OK"
+            android:textColor="#FFF"
+            android:fontFamily="@font/calibrib"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/canbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#DB4915"
+            android:text="CANCEL"
+            android:textColor="#FFF"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/calibrib"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+</LinearLayout>

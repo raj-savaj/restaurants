@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud_color"
+    tools:context=".Settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter IP Address"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/txtip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter UserName"
+            android:padding="8dp" />
+        <Button
+            android:id="@+id/btnip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0bcb4"
+            android:textColor="#302F2F"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingRight="10dp"
+            android:text="Update IP Address " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Printer IP Address"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/txtntip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/textbox"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/btnprinterip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0bcb4"
+            android:textColor="#302F2F"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Update Netwrok IP Address " />
+    </LinearLayout>
+</LinearLayout>
